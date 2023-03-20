@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  outline: none;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+#color{
+  pointer-events: none;
+  width: 110px;
+  height: 44px;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 5px;
+  background: white;
+  color: black;
+}
+button{
+  width: 120px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid white;
+  background: #8845f4;
+  color: white;
+}
